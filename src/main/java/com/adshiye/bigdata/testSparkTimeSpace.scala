@@ -1,4 +1,4 @@
-package com.thinkive.bigdata.wangwei
+package com.adshiye.bigdata
 
 import org.apache.spark.sql.SparkSession
 import org.apache.kudu.spark.kudu._

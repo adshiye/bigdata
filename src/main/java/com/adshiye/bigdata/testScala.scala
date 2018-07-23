@@ -1,4 +1,4 @@
-package com.thinkive.bigdata.wangwei
+package com.adshiye.bigdata
 
 object testScala {
   def main(args: Array[String]): Unit = {

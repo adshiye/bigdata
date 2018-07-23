@@ -1,4 +1,4 @@
-package com.thinkive.bigdata.wangwei
+package com.adshiye.bigdata
 
 import java.util.concurrent.{ExecutorService, Executors}
 

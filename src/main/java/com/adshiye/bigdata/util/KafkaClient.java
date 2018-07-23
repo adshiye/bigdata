@@ -1,4 +1,4 @@
-package com.thinkive.bigdata.wangwei.util;
+package com.adshiye.bigdata.util;
 
 import java.io.IOException;
 import java.io.InputStream;

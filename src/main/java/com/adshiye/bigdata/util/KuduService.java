@@ -1,4 +1,4 @@
-package com.thinkive.bigdata.wangwei.util;
+package com.adshiye.bigdata.util;
 
 import org.apache.kudu.client.KuduException;
 

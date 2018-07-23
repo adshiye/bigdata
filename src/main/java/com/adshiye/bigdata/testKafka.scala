@@ -1,11 +1,12 @@
-package com.thinkive.bigdata.wangwei
+package com.adshiye.bigdata
 
 import java.util.concurrent.{ExecutorService, Executors}
 
 import com.thinkive.base.jdbc.DataRow
 import com.thinkive.base.util.DateHelper
-import com.thinkive.bigdata.wangwei.util.KafkaClient
 import java.util.Date
+
+import com.adshiye.bigdata.util.KafkaClient
 
 
 object testKafka {
