@@ -1,10 +1,12 @@
-package com.adshiye.bigdata.util
+package com.adshiye.bigdata.util.other
 
 import org.apache.spark.sql.SparkSession
-import org.apache.kudu.spark.kudu._
-import org.apache.kudu.client._
-import collection.JavaConverters._
 
+/**
+  * @Description:
+  * @Author: adshiye
+  * @Create: 2018/07/23 16:58
+  */
 object kuduSource extends App{
 
   val spark = SparkSession
@@ -15,8 +17,8 @@ object kuduSource extends App{
     "kudu.master" -> "study-cdh-001",
     "kudu.table" -> "impala::default_app.t_bs_app_startup"
   )
-  val df = spark.sqlContext.read.options(config).kudu
-  println(df.rdd.partitions.length)
-  df.show(10)
-  spark.stop()
+//  val df = spark.sqlContext.read.options(config).kudu
+//  println(df.rdd.partitions.length)
+//  df.show(10)
+//  spark.stop()
 }

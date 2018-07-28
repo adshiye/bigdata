@@ -1,4 +1,4 @@
-package com.adshiye.bigdata.util;
+package com.adshiye.bigdata.util.other;
 
 import com.alibaba.fastjson.JSONObject;
 import org.apache.kudu.ColumnSchema;
